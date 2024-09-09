@@ -1,0 +1,117 @@
+nav {
+    background-color: #cb8ed1;
+    padding: 10px 0;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block; 
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #eae9e9;
+}
+
+
+nav ul li .dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    min-width: 160px;
+    padding: 0;
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #cb8ed1; 
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+.containers {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+.imagem {
+    width: 250px;
+    margin: 80px; 
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(164, 26, 26);
+    margin-left: 20px;
+}
+dy {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin: center;
+    padding: 6%;
+}
+
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #110f0f;
+    border-radius: 8px; 
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    max-width: 300px; 
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #a00c0c;
+}
+
+.card p {
+    color: #473a3a;
+}
+.imagem p{
+    justify-content: center;
+    width: 1000px;
+ }
+.patinha{
+    width: 20%;
+ 
+   
+}
